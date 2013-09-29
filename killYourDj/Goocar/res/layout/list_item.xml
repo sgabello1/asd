@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">  
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+		<!-- Name Label -->
+
+        <TextView
+            android:id="@+id/modello"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor="#acacac" />
+
+        <TextView
+            android:id="@+id/targa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#43bd00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+		<!-- Description label -->
+
+        <TextView
+            android:id="@+id/motor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor="#acacac" >
+
+        </TextView>
+        <!-- Linear layout for cost and price Cost: Rs.100 -->
+    </LinearLayout>
+
+</LinearLayout>
